@@ -53,7 +53,7 @@ class SinglyLinkedList:
     
         
 
-    def print(self):
+    def printLL(self):
         node = self.head
         while node:
             print(node.value)
@@ -65,4 +65,4 @@ ss.append(1)
 ss.append(2)
 ss.append(5)
 ss.delete(5)
-ss.print()
+ss.printLL()
